@@ -1,4 +1,3 @@
-# my-turbo-repo/my-turbo-repo/README.md
 
 # My Turbo Repo
 
@@ -22,31 +21,27 @@ my-turbo-repo
 
 1. **의존성 설치**: 루트 디렉토리에서 다음 명령어를 실행하여 모든 의존성을 설치합니다.
    ```
-   npm install
+   pnpm install
    ```
 
 2. **개발 서버 실행**: 클라이언트 또는 서버 애플리케이션을 개발 모드로 실행하려면 다음 명령어를 사용합니다.
    - 클라이언트:
      ```
-     npm run dev --workspace=apps/client
+     pnpm run dev --workspace=apps/client
      ```
    - 서버:
      ```
-     npm run dev --workspace=apps/server
+     pnpm run dev --workspace=apps/server
      ```
 
 3. **빌드**: 전체 애플리케이션을 빌드하려면 다음 명령어를 실행합니다.
    ```
-   npm run build
+   pnpm run build
    ```
 
 ## ESLint
 
 코드 품질 유지를 위해 ESLint를 사용합니다. 다음 명령어로 코드를 린트할 수 있습니다.
 ```
-npm run lint
+pnpm run lint
 ```
-
-## 기여
-
-기여를 원하신다면, 이 레포를 포크한 후 변경 사항을 제안해 주세요. 모든 기여는 환영합니다!
