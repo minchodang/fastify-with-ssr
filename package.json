@@ -6,14 +6,14 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "turbo run dev --no-cache",
+    "dev": "turbo run dev --parallel",
     "build": "turbo run build",
     "lint": "turbo run lint"
   },
   "devDependencies": {
-    "turbo": "^1.0.0",
-    "typescript": "^4.0.0",
-    "eslint": "^7.0.0"
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.2",
+    "eslint": "^9.17.0"
   },
   "packageManager": "pnpm@9.3.0"
 }
