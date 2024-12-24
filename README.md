@@ -1,4 +1,3 @@
-
 # My Turbo Repo
 
 이 프로젝트는 Turbo를 사용하여 구성된 모노레포입니다. 이 레포는 클라이언트와 서버 애플리케이션을 포함하며, TypeScript와 ESLint 설정이 포함되어 있습니다.
@@ -20,11 +19,13 @@ my-turbo-repo
 ## 시작하기
 
 1. **의존성 설치**: 루트 디렉토리에서 다음 명령어를 실행하여 모든 의존성을 설치합니다.
+
    ```
    pnpm install
    ```
 
 2. **개발 서버 실행**: 클라이언트 또는 서버 애플리케이션을 개발 모드로 실행하려면 다음 명령어를 사용합니다.
+
    - 클라이언트:
      ```
      pnpm run dev --workspace=apps/client
@@ -42,6 +43,7 @@ my-turbo-repo
 ## ESLint
 
 코드 품질 유지를 위해 ESLint를 사용합니다. 다음 명령어로 코드를 린트할 수 있습니다.
+
 ```
 pnpm run lint
 ```
